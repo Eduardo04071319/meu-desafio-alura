@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4ff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    max-width: 90%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+header {
+    background-color: #e5e9ff;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0047b3;
+}
+
+main {
+    flex: 2;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0047b3;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #c2d4ff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    resize: none;
+    color: #333;
+    background-color: #f9faff;
+}
+
+textarea::placeholder {
+    color: #aaa;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #0047b3;
+    color: #fff;
+    flex: 1;
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:last-child {
+    margin-right: 0;
+    background-color: #a3bfff;
+}
+
+button:hover {
+    background-color: #002c7f;
+}
+
+.note {
+    font-size: 12px;
+    color: #555;
+}
+
+aside {
+    flex: 1;
+    background-color: #f0f4ff;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.message img {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+.message p:first-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    color: #0047b3;
+    margin-bottom: 10px;
+}
+
+.message p:last-of-type {
+    font-size: 14px;
+    color: #555;
+}
